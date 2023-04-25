@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "wake-up-station",
+    "slug": "wake-up-station",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.wake.up.station",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "myapp",
+    "extra": {
+      "eas": {
+        "projectId": "3d91d2cc-798c-4314-8f54-5b1f37d5a35c"
+      },
+      "env": "dev",
+      "clientId": "process.env.GOOGLE_GUID"
+    },
+    "owner": "yedidya10"
+  }
+}
